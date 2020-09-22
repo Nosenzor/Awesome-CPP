@@ -8,3 +8,6 @@ My Awesome C++ List : Quick Notes.
 # Performance 
  * Richard Fabian's book on Data Oriented Design : https://www.dataorienteddesign.com/dodbook/ ... it's free !
  
+ # MODERN C++
+ 
+* experiments of move constructors and noexept attribute in containers ... quite instructive : http://www.hlsl.co.uk/blog/2017/12/1/c-noexcept-and-move-constructors-effect-on-performance-in-stl-containers
