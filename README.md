@@ -14,4 +14,5 @@ My Awesome C++ List : Quick Notes.
 * experiments of move constructors and noexept attribute in containers ... quite instructive : http://www.hlsl.co.uk/blog/2017/12/1/c-noexcept-and-move-constructors-effect-on-performance-in-stl-containers
 
 # Other Awesome lists
-* An amazing awesome lists ;-) (really complete) : https://github.com/fffaraz/awesome-cpp#static-code-analysis
+* An amazing awesome list;-) (really complete) : https://github.com/fffaraz/awesome-cpp#static-code-analysis
+* Another great awesome list (a list of lists) : https://github.com/MattPD/cpplinks
