@@ -1,6 +1,9 @@
 # Awesome-CPP
 My Awesome C++ List : Quick Notes.
 
+# Blogs & Conferences
+* CPPCON : The Best conference for C++ : https://github.com/CppCon
+
 
 # Memory Management
 
