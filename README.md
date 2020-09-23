@@ -26,4 +26,5 @@ My Awesome C++ List : Quick Notes.
 * Extended Ear Clipping methods that can handle holes : https://github.com/mapbox/earcut.hpp (header only, non Delaunay triangulation, non robust...but can be patched to be robust ?)
 * J Ratcliff "Efficient Polygon Triangulation" on Flipcode (do not handle hole, code is a bit old ...) : https://www.flipcode.com/archives/Efficient_Polygon_Triangulation.shtml
 * A review of some polygon implementations available to sue on VTerrain by Ben Discoe : http://vterrain.org/Implementation/Libs/triangulate.html
-* **Anyone has tried to implement or know an opensourse implementation of the Bernard Chazelle's "Polygon Traingulation in linear time" algorithm ?**
+* **Anyone has tried to implement or know an opensourse implementation of the Bernard Chazelle's "Triangulating a Simple Polygon in Linear Time" algorithm ?** https://www.cs.princeton.edu/~chazelle/pubs/polygon-triang.pdf
+
