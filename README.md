@@ -30,7 +30,7 @@ My Awesome C++ List : Quick Notes.
 
 ## Polygon Triangulation
 
-* The famous "Triangle" Librarry by **Jonathan Richard Shewchuck** <3 : http://www.cs.cmu.edu/~quake/triangle.html (Constrained Delaunay with robust predicates)
+* The famous "Triangle" Library by **Jonathan Richard Shewchuck** <3 : http://www.cs.cmu.edu/~quake/triangle.html (Constrained Delaunay with robust predicates)
 * Extended Ear Clipping methods that can handle holes : https://github.com/mapbox/earcut.hpp (header only, non Delaunay triangulation, non robust...but can be patched to be robust ?)
 * **J Ratcliff** "Efficient Polygon Triangulation" on Flipcode (do not handle hole, code is a bit old ...) : https://www.flipcode.com/archives/Efficient_Polygon_Triangulation.shtml
 * A review of some polygon implementations available to sue on VTerrain by **Ben Discoe** : http://vterrain.org/Implementation/Libs/triangulate.html
