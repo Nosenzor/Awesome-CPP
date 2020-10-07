@@ -24,7 +24,7 @@ My Awesome C++ List : Quick Notes.
 # Other Awesome lists
 * An amazing awesome list;-) (really complete) : https://github.com/fffaraz/awesome-cpp#static-code-analysis
 * Another great awesome list (a list of lists) : https://github.com/MattPD/cpplinks
-
+* A list of headers only porject ...wow : https://github.com/p-ranav/awesome-hpp
 
 # Geometry
 
@@ -36,3 +36,6 @@ My Awesome C++ List : Quick Notes.
 * A review of some polygon implementations available to sue on VTerrain by **Ben Discoe** : http://vterrain.org/Implementation/Libs/triangulate.html
 * **Anyone has tried to implement or know an opensourse implementation of the Bernard Chazelle's "Triangulating a Simple Polygon in Linear Time" algorithm ?** https://www.cs.princeton.edu/~chazelle/pubs/polygon-triang.pdf
 
+# GUI
+ * improve your command line 'Gui' with beautiful progress bars. Don't miss it if you are a true geek :-) https://github.com/p-ranav/indicators
+ 
