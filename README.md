@@ -7,7 +7,7 @@ My Awesome C++ List : Quick Notes.
 * CPPCON : The Best conference for C++ : https://github.com/CppCon
 
 ## Blogs
-* The very pertinent blog of Jonathan Boccara : Fliuen CPP : https://www.fluentcpp.com
+* The very pertinent blog of Jonathan Boccara : Fluent CPP : https://www.fluentcpp.com
 
 
 # Memory Management
