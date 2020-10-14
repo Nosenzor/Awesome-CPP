@@ -48,3 +48,4 @@ My Awesome C++ List : Quick Notes.
  
 # CMAKE and Build Tools
 * https://github.com/ttroy50/cmake-examples
+* A really simple CMAKE example but usefull for me as a beginner http://techminded.net/blog/modular-c-projects-with-cmake.html
