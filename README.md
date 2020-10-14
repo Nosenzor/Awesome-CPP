@@ -43,4 +43,8 @@ My Awesome C++ List : Quick Notes.
 
 # GUI
  * improve your command line 'Gui' with beautiful progress bars. Don't miss it if you are a true geek :-) https://github.com/p-ranav/indicators
+ * Nanogui by **Wenzel Jakob** (it's incredible how many essential good projects this guy have in its github !!) :  https://github.com/wjakob/nanogui
+ * Dear ImGui by **Omar 'Ocornut** : https://github.com/ocornut (The documentation and examples are numerous)
  
+# CMAKE and Build Tools
+* https://github.com/ttroy50/cmake-examples
