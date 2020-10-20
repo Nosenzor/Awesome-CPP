@@ -47,5 +47,7 @@ My Awesome C++ List : Quick Notes.
  * Dear ImGui by **Omar 'Ocornut** : https://github.com/ocornut (The documentation and examples are numerous)
  
 # CMAKE and Build Tools
+As a beginner in CMake i'd need a lot of tutorials to master this powerful tool !!
 * https://github.com/ttroy50/cmake-examples
 * A really simple CMAKE example but usefull for me as a beginner http://techminded.net/blog/modular-c-projects-with-cmake.html
+* A starting guide *In french* by **Alexandre Laurent** : https://alexandre-laurent.developpez.com/tutoriels/cmake/
