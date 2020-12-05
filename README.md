@@ -22,7 +22,9 @@ My Awesome C++ List : Quick Notes.
 # Performance 
  * **Richard Fabian**'s book on Data Oriented Design : https://www.dataorienteddesign.com/dodbook/ ... it's free !
  * **Eve** a simd library by **Joel Falcou** and **Jean-Thierry Lapreste** : https://jfalcou.github.io/eve/index.html
- # Modern C++
+* One of my favourite author when it comes to speak about performance **Agner Fog** and here is a free booklet on simd and the Vex library : https://www.agner.org/optimize/vcl_manual.pdf. Be sure to have a look on his website (https://www.agner.org/optimize/) and github (https://github.com/vectorclass)
+
+# Modern C++
  
 * experiments of move constructors and noexept attribute in containers ... quite instructive : http://www.hlsl.co.uk/blog/2017/12/1/c-noexcept-and-move-constructors-effect-on-performance-in-stl-containers
 
