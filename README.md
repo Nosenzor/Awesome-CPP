@@ -23,8 +23,11 @@ My Awesome C++ List : Quick Notes.
 * One of my favourite author when it comes to speak about performance **Agner Fog** and here is a free booklet on simd and the Vex library : https://www.agner.org/optimize/vcl_manual.pdf. Be sure to have a look on his website (https://www.agner.org/optimize/) and github (https://github.com/vectorclass)
  * Excellent talks
    * CppCon 2017: [Carl Cook “When a Microsecond Is an Eternity: High Performance Trading Systems in C++”](https://www.youtube.com/watch?v=NH1Tta7purM)  
+   * Meeting C++ 2018 : [Writing cache friendly C++ - Jonathan Müller]( https://www.youtube.com/watch?v=Nz9SiF0QVKY)
    * CppCon 2019: [Andrei Alexandrescu “Speed Is Found In The Minds of People"](https://www.youtube.com/watch?v=FJJTYQYB1JQ)
-   * Meeting C++ 2018 : [Writing cache friendly C++ - Jonathan Müller] ( https://www.youtube.com/watch?v=Nz9SiF0QVKY)
+   * CppCon 2020 : [Emery Berger Plenary: Performance Matters](https://www.youtube.com/watch?v=koTf7u0v41o)
+  
+  
 # Modern C++
  
 * experiments of move constructors and noexept attribute in containers ... quite instructive : http://www.hlsl.co.uk/blog/2017/12/1/c-noexcept-and-move-constructors-effect-on-performance-in-stl-containers
