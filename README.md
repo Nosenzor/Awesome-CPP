@@ -57,3 +57,5 @@ As a beginner in CMake i'd need a lot of tutorials to master this powerful tool 
 * https://github.com/ttroy50/cmake-examples
 * A really simple CMAKE example but usefull for me as a beginner http://techminded.net/blog/modular-c-projects-with-cmake.html
 * A starting guide *In french* by **Alexandre Laurent** : https://alexandre-laurent.developpez.com/tutoriels/cmake/
+## Some Perf tracker 
+* Comparing Valgrind, & Sanitizers : https://developers.redhat.com/blog/2021/05/05/memory-error-checking-in-c-and-c-comparing-sanitizers-and-valgrind#performance_benefits_of_sanitizers
