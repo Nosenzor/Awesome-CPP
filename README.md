@@ -38,6 +38,12 @@ My Awesome C++ List : Quick Notes.
 * A list of headers only porject ...wow : https://github.com/p-ranav/awesome-hpp
 
 # Geometry
+## Very cool General Mesh and Cloud of Points Libraries
+ * **The Polygon Mesh Library**(PMP) : http://www.pmp-library.org  by **Daniel Sieger and Mario Botsch**. A general libraires with a high quality toolbox on Meshes (Remeshing, cleaning, open/write different format) with a viewer.License : MIT
+ * **OpenMesh** : http://www.openmesh.org/ or https://www.graphics.rwth-aachen.de/software/openmesh/ from the Aachen University. Founded by some of my most inspiring researchers Pr Leif Kobbelt and Marcel Campen. OpenMesh serves as a foundation to the PMP Library too !. Can be found as a vcpkg packet ! Open Mesh introduced the famous Half-Edge data structure and provide a lot of tools (decimation, read/write STL/OBJ/OFF) and moreover can be easily extended. Have a python binding... what else? License : BSD V3
+ * **TriMesh** (from Szymon Rusinkiewicz) : https://gfx.cs.princeton.edu/proj/trimesh2/ adapted by Jeroen Baert : https://github.com/Forceflow/trimesh2 although a bit old in its implementation its simplicity is its asset. Can read and write many differents types (OFF, OBJ, STL ..and older exotic types !) License : GPL
+* **LibIGL** : https://libigl.github.io from **Alec Jacobson and Daniele Panozzo and others**. A header only library :-) 
+
 
 ## Polygon Triangulation
 
@@ -46,6 +52,9 @@ My Awesome C++ List : Quick Notes.
 * **J Ratcliff** "Efficient Polygon Triangulation" on Flipcode (do not handle hole, code is a bit old ...) : https://www.flipcode.com/archives/Efficient_Polygon_Triangulation.shtml
 * A review of some polygon implementations available to sue on VTerrain by **Ben Discoe** : http://vterrain.org/Implementation/Libs/triangulate.html
 * **Do Anyone tried to implement or know an opensourse implementation of the Bernard Chazelle's "Triangulating a Simple Polygon in Linear Time" algorithm ?** https://www.cs.princeton.edu/~chazelle/pubs/polygon-triang.pdf
+
+## Other Geometry tools
+* **PolyLabel** : https://github.com/mapbox/polylabel. A library to find the "polygon pole of inaccessibility, the most distant internal point from the polygon outline (not to be confused with centroid)".
 
 # GUI
  * improve your command line 'Gui' with beautiful progress bars. Don't miss it if you are a true geek :-) https://github.com/p-ranav/indicators
