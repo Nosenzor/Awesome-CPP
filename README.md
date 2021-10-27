@@ -26,6 +26,7 @@ My Awesome C++ List : Quick Notes.
    * Meeting C++ 2018 : [Writing cache friendly C++ - Jonathan Müller]( https://www.youtube.com/watch?v=Nz9SiF0QVKY)
    * CppCon 2019: [Andrei Alexandrescu “Speed Is Found In The Minds of People"](https://www.youtube.com/watch?v=FJJTYQYB1JQ)
    * CppCon 2020 : [Emery Berger Plenary: Performance Matters](https://www.youtube.com/watch?v=koTf7u0v41o)
+ * **Martin Ankerl** did an excellent benchmark and review on Hash Maps while he created his own implementation : https://martin.ankerl.com/2019/04/01/hashmap-benchmarks-01-overview/
   
   
 # Modern C++
