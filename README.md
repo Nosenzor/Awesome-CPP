@@ -27,11 +27,12 @@ My Awesome C++ List : Quick Notes.
    * CppCon 2019: [Andrei Alexandrescu “Speed Is Found In The Minds of People"](https://www.youtube.com/watch?v=FJJTYQYB1JQ)
    * CppCon 2020 : [Emery Berger Plenary: Performance Matters](https://www.youtube.com/watch?v=koTf7u0v41o)
  * **Martin Ankerl** did an excellent benchmark and review on Hash Maps while he created his own implementation : https://martin.ankerl.com/2019/04/01/hashmap-benchmarks-01-overview/
-  * **Denis Bakhvalov** Precious performance information scattered on [his site(https://easyperf.net), [YouTube](https://www.youtube.com/channel/UCGmEJdQ993cdCGdnLZDuOOQ/videos) and [GitHub](https://github.com/dendibakh)
+  * **Denis Bakhvalov** Precious performance information scattered on [his "easyperf" site](https://easyperf.net), [YouTube](https://www.youtube.com/channel/UCGmEJdQ993cdCGdnLZDuOOQ/videos) and [GitHub](https://github.com/dendibakh)
   
 # Modern C++
  
 * experiments of move constructors and noexept attribute in containers ... quite instructive : http://www.hlsl.co.uk/blog/2017/12/1/c-noexcept-and-move-constructors-effect-on-performance-in-stl-containers
+* **Jason Turner** [C++ Weekly on YouTube](https://www.youtube.com/playlist?list=PLs3KjaCtOwSZ2tbuV1hx8Xz-rFZTan2J1) and his [Lefticus GitHub](https://github.com/lefticus) where you can find template to start (or improve) your C++ project https://github.com/cpp-best-practices/cpp_starter_project. Also check his [website](https://articles.emptycrate.com), but a bit outdated IMO...
 
 # Other Awesome lists
 * An amazing awesome list;-) (really complete) : https://github.com/fffaraz/awesome-cpp#static-code-analysis
