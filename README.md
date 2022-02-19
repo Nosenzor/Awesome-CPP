@@ -13,7 +13,7 @@ My Awesome C++ List : Quick Notes.
 # Memory Management
 
 ## Memory Allocators 
-* **Mesh Allocator** by **Emery Berger**, an allocator that avoid memory fragmentation : https://github.com/CppCon/CppCon2019/tree/master/Presentations/mesh_automatically_compacting_your_cpp_applications_memory, presenation : https://www.youtube.com/watch?v=XRAP3lBivYM
+* **Mesh Allocator** by **Emery Berger**, an allocator that avoid memory fragmentation : https://github.com/CppCon/CppCon2019/tree/master/Presentations/mesh_automatically_compacting_your_cpp_applications_memory, presentation : https://www.youtube.com/watch?v=XRAP3lBivYM
 * **Hoard** by the same **Emery Berger** (his previous work) a fast memory allocator : http://hoard.org/
 * **SnMalloc** and **MiMalloc** are two **Microsoft projects** for Allocators: https://github.com/Microsoft/snmalloc and https://github.com/microsoft/mimalloc. A comprehensive benchmark can be found in Mimalloc page : https://github.com/microsoft/mimalloc#performance where you can retrieve JeMalloc, rpmalloc, jemalloc, Hoard and Mesh allocators.
 
