@@ -8,6 +8,7 @@ My Awesome C++ List : Quick Notes.
 
 ## Blogs
 * The very pertinent blog of Jonathan Boccara : Fluent CPP : https://www.fluentcpp.com
+* Discover & find a curated list of popular libraries, trending project kits, tutorials & learning resources on kandi. : Explore CPP : https://kandi.openweaver.com/explore/c++
 
 
 # Memory Management
