@@ -27,6 +27,7 @@ My Awesome C++ List : Quick Notes.
    * CppCon 2019: [Andrei Alexandrescu “Speed Is Found In The Minds of People"](https://www.youtube.com/watch?v=FJJTYQYB1JQ)
    * CppCon 2019 : [Alan Talbot “How to Choose the Right Standard Library Container, and Why You Should Want Some More”] (https://youtu.be/yjPKVOYcw28), because everyone can improve on using the right container.
    * CppCon 2020 : [Emery Berger Plenary: Performance Matters](https://www.youtube.com/watch?v=koTf7u0v41o)
+   * CppCon 2022 : [Jan Bielak amazing talk The Most Important Optimizations to Apply in Your C++ programs](https://youtu.be/qCjEN5XRzHc), but don't forget to pick the right algorithms and structure first !!!
  * **Martin Ankerl** did an excellent benchmark and review on Hash Maps while he created his own implementation : https://martin.ankerl.com/2019/04/01/hashmap-benchmarks-01-overview/
   * **Denis Bakhvalov** Precious performance information scattered on [his "easyperf" site](https://easyperf.net), [YouTube](https://www.youtube.com/channel/UCGmEJdQ993cdCGdnLZDuOOQ/videos) and [GitHub](https://github.com/dendibakh)
   *  **Codee** [knowledge database](https://www.codee.com/knowledge/) a good set of optimization tricks with easy to understand examples
