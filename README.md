@@ -36,6 +36,9 @@ My Awesome C++ List : Quick Notes.
  * **Martin Ankerl** did an excellent benchmark and review on Hash Maps while he created his own implementation : https://martin.ankerl.com/2019/04/01/hashmap-benchmarks-01-overview/
   * **Denis Bakhvalov** Precious performance information scattered on [his "easyperf" site](https://easyperf.net), [YouTube](https://www.youtube.com/channel/UCGmEJdQ993cdCGdnLZDuOOQ/videos) and [GitHub](https://github.com/dendibakh)
   *  **Codee** [knowledge database](https://www.codee.com/knowledge/) a good set of optimization tricks with easy to understand examples
+ 
+ ## Some Perf tracker s
+* Comparing Valgrind, & Sanitizers : https://developers.redhat.com/blog/2021/05/05/memory-error-checking-in-c-and-c-comparing-sanitizers-and-valgrind#performance_benefits_of_sanitizers
   
 # Modern C++
  
@@ -45,7 +48,7 @@ My Awesome C++ List : Quick Notes.
 # Other Awesome lists
 * An amazing awesome list;-) (really complete) : https://github.com/fffaraz/awesome-cpp#static-code-analysis
 * Another great awesome list (a list of lists) : https://github.com/MattPD/cpplinks
-* A list of headers only porject ...wow : https://github.com/p-ranav/awesome-hpp
+* A list of headers only projects ...wow : https://github.com/p-ranav/awesome-hpp (I'm using [indicators](https://github.com/p-ranav/indicators) from the same guy to get progress bar in cli-apps).
 
 # Geometry
 ## Very cool General Mesh and Cloud of Points Libraries
@@ -55,7 +58,7 @@ My Awesome C++ List : Quick Notes.
 * **LibIGL** : https://libigl.github.io from **Alec Jacobson and Daniele Panozzo and others**. A header only library :-) 
 
 ## Dealing with numerical problems
- * A nice demo of floating point computation problems : https://simontoth.substack.com/p/daily-bite-of-c-numbers-are-not-easy
+* A nice demo of floating point computation problems : https://simontoth.substack.com/p/daily-bite-of-c-numbers-are-not-easy
 * Boost interval arithmetic can really help to build your predicates canvas https://www.boost.org/doc/libs/1_81_0/libs/numeric/interval/doc/interval.htm
 * Within Shewchuck Triangle library you can find a set of robust predicates based on double expansion : http://www.cs.cmu.edu/~quake/triangle.html
 
@@ -86,6 +89,5 @@ As a beginner in CMake i'd need a lot of tutorials to master this powerful tool 
 * I try to use GitHub Actions but for now I'm not very successful . Here's some resources I use :
   * A GitHub actions hosted on your computer. https://github.com/nektos/act 5i'm trying to set it up)
 
-## Some Perf tracker 
-* Comparing Valgrind, & Sanitizers : https://developers.redhat.com/blog/2021/05/05/memory-error-checking-in-c-and-c-comparing-sanitizers-and-valgrind#performance_benefits_of_sanitizers
+
 
