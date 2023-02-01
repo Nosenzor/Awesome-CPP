@@ -49,6 +49,10 @@ My Awesome C++ List : Quick Notes.
  * **TriMesh** (from Szymon Rusinkiewicz) : https://gfx.cs.princeton.edu/proj/trimesh2/ adapted by Jeroen Baert : https://github.com/Forceflow/trimesh2 although a bit old in its implementation its simplicity is its asset. Can read and write many differents types (OFF, OBJ, STL ..and older exotic types !) License : GPL
 * **LibIGL** : https://libigl.github.io from **Alec Jacobson and Daniele Panozzo and others**. A header only library :-) 
 
+## Dealing with numerical problems
+ * A nice demo of floating point computation problems : https://simontoth.substack.com/p/daily-bite-of-c-numbers-are-not-easy
+* Boost interval arithmetic can really help to build your predicates canvas https://www.boost.org/doc/libs/1_81_0/libs/numeric/interval/doc/interval.htm
+* Within Shewchuck Triangle library you can find a set of robust predicates based on double expansion : http://www.cs.cmu.edu/~quake/triangle.html
 
 ## Polygon Triangulation
 
