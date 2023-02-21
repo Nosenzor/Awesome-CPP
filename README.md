@@ -88,6 +88,8 @@ As a beginner in CMake i'd need a lot of tutorials to master this powerful tool 
 * Package manager, I use vcpkg https://vcpkg.io/ (simply because I have been able to set it up quicker than Conan ..)
 * I try to use GitHub Actions but for now I'm not very successful . Here's some resources I use :
   * A GitHub actions hosted on your computer. https://github.com/nektos/act 5i'm trying to set it up)
+  
+* This is an intersting step by step tutorial on how to build your "modern" doc from **Simon Toth**  https://simontoth.substack.com/p/daily-bite-of-c-modern-documentation
 
 
 
