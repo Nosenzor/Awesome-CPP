@@ -81,15 +81,17 @@ My Awesome C++ List : Quick Notes.
 # CMAKE and Build Tools
 As a beginner in CMake i'd need a lot of tutorials to master this powerful tool !!
 * Project Option : A lot of resources to have a nice start using Cmake : https://github.com/cpp-best-practices/project_options/
-* https://github.com/ttroy50/cmake-examples
-* A really simple CMAKE example but usefull for me as a beginner http://techminded.net/blog/modular-c-projects-with-cmake.html
+* **Eric Scott Bar**'s quick explanation to use boost Test in Cmake : https://eb2.co/blog/2015/06/driving-boost.test-with-cmake/
+* Zillion of Cmake examples that cover basic usage, testing, packaging from **Thom Troy** : https://github.com/ttroy50/cmake-examples
+* A good resource from the **ENCCS** (EuroCC National Competence Centre Sweden) https://enccs.github.io/cmake-workshop/hello-ctest/
+* A really simple CMAKE example but usefull for me as a early beginner http://techminded.net/blog/modular-c-projects-with-cmake.html
 * A starting guide *In french* by **Alexandre Laurent** : https://alexandre-laurent.developpez.com/tutoriels/cmake/
 * Understanding Compile Time : http://coding-scars.com/investigating-cpp-compile-times-1/
 * Package manager, I use vcpkg https://vcpkg.io/ (simply because I have been able to set it up quicker than Conan ..)
-* I try to use GitHub Actions but for now I'm not very successful . Here's some resources I use :
-  * A GitHub actions hosted on your computer. https://github.com/nektos/act 5i'm trying to set it up)
-  
-* This is an intersting step by step tutorial on how to build your "modern" doc from **Simon Toth**  https://simontoth.substack.com/p/daily-bite-of-c-modern-documentation
+* I try to use GitHub Actions. Here's some resources I use :
+  * A GitHub actions hosted on your computer : https://github.com/nektos/act 
+ 
+* This is an interesting step by step tutorial on how to build your "modern" doc from **Simon Toth**  https://simontoth.substack.com/p/daily-bite-of-c-modern-documentation
 
 
 
