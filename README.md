@@ -10,20 +10,34 @@ My Awesome C++ List : Quick Notes.
 * The very pertinent blog of Jonathan Boccara : Fluent CPP : https://www.fluentcpp.com
 
 
-# Memory Management
+# Performance 
+
+## Multithreading
+Beyond OPenMP and basic multithreading from the STL one could largely benefit to use a task based multithreading library to reach 95% of the top performance in less than 1% of the coding time !
+ * **TBB** / **oneTBB** : The Threading Building Blocks, that's my default go to threading library, modern (range support for long time), very efficient, portable (I successfuly used it on Windows x86/x64, Linux x86/x64, MacOS x64/arm64), with nice algorithms implemented. It also comes with some thread safe containers like vectors, and unordered set and map. And a dedicated allocator.  [TBB](https://github.com/oneapi-src/oneTBB). 
+
+Notes : 
+** Microsoft has based its [PPL](https://learn.microsoft.com/en-us/cpp/parallel/concrt/parallel-patterns-library-ppl?redirectedfrom=MSDN&view=msvc-170) on TBB (PPL is a subset of TBB).
+** GCC C++ STL and Microsoft VisualC++ STL have both based based their C++17 parallel-STL on TBB. Nevertheless, I observed the performance to be lower than a direct use of TBB.
+
+ * **Taskflow** : A very active project that i want to try asap. Looks like a serious competitor to TBB with a focus on taskgraph but also support the required parallel_for and reduce. Claims to be faster than TBB ! https://github.com/taskflow/taskflow Taskflow can even target aGPU using a Cuda backend, although not very portable it can really help to have only one API to deal with ! 
+
+ * **HPX** : HPX is developed by the **STE||AR group**. It offers a STL-lke interface to some algorithms like delayed/asynchronous function, for_loop, etc ... It claims to be the pre-standard STL and to focus on high-performance computing.[HPX's doc here](https://hpx-docs.stellar-group.org/latest/html/libs/overview.html) and [HPX Github here](https://github.com/STEllAR-GROUP/hpx/)
+
+* I'd like to add [SYCL](https://www.khronos.org/sycl/) in this list but it's too low level, imo. Plus it's not as universal as it should (aim to) be. I'd like to see more backends here (Apple wake up!) or a more general one. Although it worths to mention the work from [OpenSYCL / hipSYCL](https://github.com/OpenSYCL/OpenSYCL) adn [triSYCL](https://github.com/triSYCL/triSYCL). BTW, triSYCL is built on top of TBB (again !!) for the CPU backend, so that makes it cpu generic. The installation of SYCL system is still a bit cumbersome :-(
+
+## SIMD
+One can directly use AVX or neon instructions directly, but the algorithms are quite hard to write and to read, and you wouild need to write 100% of the algorithm for another instruction set. What if you can use a library that express a generic way to write SIMD like loop and take care of the low-level instruction ?
+ * **Eve** a simd library by **Joel Falcou** and **Jean-Thierry Lapreste** : https://jfalcou.github.io/eve/index.html
+* One of my favourite author when it comes to speak about performance **Agner Fog** and here is a free booklet on simd and the **Vex library** : https://www.agner.org/optimize/vcl_manual.pdf. Be sure to have a look on his website (https://www.agner.org/optimize/) and github (https://github.com/vectorclass)
+* **XSIMD** [C++ wrappers for SIMD intrinsics](https://github.com/xtensor-stack/xsimd). Maybe not as complete as EVE but very convenient and easy to use.
+* **Highway** [C++ library that provides portable SIMD/vector intrinsics](https://github.com/google/highway) a very complete library (that supports many kind of CPUs) that has been the based framework for Google SIMD based sorting algorithm.
 
 ## Memory Allocators 
 * **Mesh Allocator** by **Emery Berger**, an allocator that avoid memory fragmentation : https://github.com/CppCon/CppCon2019/tree/master/Presentations/mesh_automatically_compacting_your_cpp_applications_memory, presentation : https://www.youtube.com/watch?v=XRAP3lBivYM
 * **Hoard** by the same **Emery Berger** (his previous work) a fast memory allocator : http://hoard.org/
 * **SnMalloc** and **MiMalloc** are two **Microsoft projects** for Allocators: https://github.com/Microsoft/snmalloc and https://github.com/microsoft/mimalloc. A comprehensive benchmark can be found in Mimalloc page : https://github.com/microsoft/mimalloc#performance where you can retrieve JeMalloc, rpmalloc, jemalloc, Hoard and Mesh allocators.
-
-# Performance 
- 
-## SIMD
- * **Eve** a simd library by **Joel Falcou** and **Jean-Thierry Lapreste** : https://jfalcou.github.io/eve/index.html
-* One of my favourite author when it comes to speak about performance **Agner Fog** and here is a free booklet on simd and the **Vex library** : https://www.agner.org/optimize/vcl_manual.pdf. Be sure to have a look on his website (https://www.agner.org/optimize/) and github (https://github.com/vectorclass)
-* **XSIMD** [C++ wrappers for SIMD intrinsics](https://github.com/xtensor-stack/xsimd). Maybe not as complete as EVE but very convenient and easy to use.
-* **Highway** [C++ library that provides portable SIMD/vector intrinsics](https://github.com/google/highway) a very complete library (that supports many kind of CPUs) that has been the based framework for Google SIMD based sorting algorithm.
+* 
  ## Excellent talks
    * CppCon 2017: [Carl Cook “When a Microsecond Is an Eternity: High Performance Trading Systems in C++”](https://www.youtube.com/watch?v=NH1Tta7purM)
    * Meeting C++ 2018 : [Writing cache friendly C++ - Jonathan Müller]( https://www.youtube.com/watch?v=Nz9SiF0QVKY)
