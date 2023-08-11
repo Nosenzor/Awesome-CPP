@@ -37,7 +37,7 @@ One can directly use AVX or neon instructions directly, but the algorithms are q
 * **Mesh Allocator** by **Emery Berger**, an allocator that avoid memory fragmentation : https://github.com/CppCon/CppCon2019/tree/master/Presentations/mesh_automatically_compacting_your_cpp_applications_memory, presentation : https://www.youtube.com/watch?v=XRAP3lBivYM
 * **Hoard** by the same **Emery Berger** (his previous work) a fast memory allocator : http://hoard.org/
 * **SnMalloc** and **MiMalloc** are two **Microsoft projects** for Allocators: https://github.com/Microsoft/snmalloc and https://github.com/microsoft/mimalloc. A comprehensive benchmark can be found in Mimalloc page : https://github.com/microsoft/mimalloc#performance where you can retrieve JeMalloc, rpmalloc, jemalloc, Hoard and Mesh allocators.
-* 
+
  ## Excellent talks
    * CppCon 2017: [Carl Cook “When a Microsecond Is an Eternity: High Performance Trading Systems in C++”](https://www.youtube.com/watch?v=NH1Tta7purM)
    * Meeting C++ 2018 : [Writing cache friendly C++ - Jonathan Müller]( https://www.youtube.com/watch?v=Nz9SiF0QVKY)
@@ -75,6 +75,10 @@ One can directly use AVX or neon instructions directly, but the algorithms are q
 * A nice demo of floating point computation problems : https://simontoth.substack.com/p/daily-bite-of-c-numbers-are-not-easy
 * Boost interval arithmetic can really help to build your predicates canvas https://www.boost.org/doc/libs/1_81_0/libs/numeric/interval/doc/interval.htm
 * Within Shewchuck Triangle library you can find a set of robust predicates based on double expansion : http://www.cs.cmu.edu/~quake/triangle.html
+* [GMP](https://gmplib.org/) : The GNU Multiple Precision Arithmetic Library is a well known library, providing foundation for a lot of robust arithmetic. Very effient, although API are a bit outdated and it is not very easy to install (has no cmake by default, worth looking at vcpkg)
+* [FLINT](https://flintlib.org/) : FLINT : Fast Library for Number Theory (can be found on github here :https://github.com/flintlib/flint2)
+* [MPPP](https://bluescarni.github.io/mppp/) a multiprecision library based on gmp (and way easier to install), that claim an "excellent performance for small integer and rational operands", which sound perfect for geometry.
+* [TTMath](https://www.ttmath.org), a small Big integer C++ library.
 
 ## Polygon Triangulation
 
