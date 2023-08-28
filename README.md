@@ -50,7 +50,7 @@ One can directly use AVX or neon instructions directly, but the algorithms are q
  * **Martin Ankerl** did an excellent benchmark and review on Hash Maps while he created his own implementation : https://martin.ankerl.com/2019/04/01/hashmap-benchmarks-01-overview/
   * **Denis Bakhvalov** Precious performance information scattered on [his "easyperf" site](https://easyperf.net), [YouTube](https://www.youtube.com/channel/UCGmEJdQ993cdCGdnLZDuOOQ/videos) and [GitHub](https://github.com/dendibakh)
   *  **Codee** [knowledge database](https://www.codee.com/knowledge/) a good set of optimization tricks with easy to understand examples
- 
+  
  ## Some Perf tracker s
 * Comparing Valgrind, & Sanitizers : https://developers.redhat.com/blog/2021/05/05/memory-error-checking-in-c-and-c-comparing-sanitizers-and-valgrind#performance_benefits_of_sanitizers
   
