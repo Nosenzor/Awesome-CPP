@@ -28,7 +28,7 @@ Notes :
 * I'd like to add [SYCL](https://www.khronos.org/sycl/) in this list but it's too low level, imo. Plus it's not as universal as it should (aim to) be. I'd like to see more backends here (Apple wake up!) or a more general one. Although it worths to mention the work from [OpenSYCL / hipSYCL](https://github.com/OpenSYCL/OpenSYCL) adn [triSYCL](https://github.com/triSYCL/triSYCL). BTW, triSYCL is built on top of TBB (again !!) for the CPU backend, so that makes it cpu generic. The installation of SYCL system is still a bit cumbersome :-(
 
 ## SIMD
-One can directly use AVX or neon instructions directly, but the algorithms are quite hard to write and to read, and you wouild need to write 100% of the algorithm for another instruction set. What if you can use a library that express a generic way to write SIMD like loop and take care of the low-level instruction ?
+One can directly use AVX or neon instructions directly, but the algorithms are quite hard to write and to read, and you wouild need to write 100% of the algorithm for another instruction set. What if you can use a library that express a generic way to write SIMD like loop and take care of the low-. level instruction ?
  * **Eve** a simd library by **Joel Falcou** and **Jean-Thierry Lapreste** : https://jfalcou.github.io/eve/index.html
 * One of my favourite author when it comes to speak about performance **Agner Fog** and here is a free booklet on simd and the **Vex library** : https://www.agner.org/optimize/vcl_manual.pdf. Be sure to have a look on his website (https://www.agner.org/optimize/) and github (https://github.com/vectorclass)
 * **XSIMD** [C++ wrappers for SIMD intrinsics](https://github.com/xtensor-stack/xsimd). Maybe not as complete as EVE but very convenient and easy to use.
@@ -38,6 +38,7 @@ One can directly use AVX or neon instructions directly, but the algorithms are q
 * **Mesh Allocator** by **Emery Berger**, an allocator that avoid memory fragmentation : https://github.com/CppCon/CppCon2019/tree/master/Presentations/mesh_automatically_compacting_your_cpp_applications_memory, presentation : https://www.youtube.com/watch?v=XRAP3lBivYM
 * **Hoard** by the same **Emery Berger** (his previous work) a fast memory allocator : http://hoard.org/
 * **SnMalloc** and **MiMalloc** are two **Microsoft projects** for Allocators: https://github.com/Microsoft/snmalloc and https://github.com/microsoft/mimalloc. A comprehensive benchmark can be found in Mimalloc page : https://github.com/microsoft/mimalloc#performance where you can retrieve JeMalloc, rpmalloc, jemalloc, Hoard and Mesh allocators.
+*  **llmalloc** : Low Latency threading cache. I have not tried yet. [llmalloc](https://github.com/akhin/llmalloc)
 
  ## Excellent talks
    * CppCon 2017: [Carl Cook “When a Microsecond Is an Eternity: High Performance Trading Systems in C++”](https://www.youtube.com/watch?v=NH1Tta7purM)
