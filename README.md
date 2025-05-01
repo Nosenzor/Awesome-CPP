@@ -115,5 +115,6 @@ As a beginner in CMake i'd need a lot of tutorials to master this powerful tool 
  
 * This is an interesting step by step tutorial on how to build your "modern" doc from **Simon Toth**  https://simontoth.substack.com/p/daily-bite-of-c-modern-documentation
 
-
+Once CMake has less secret you can read this :
+* [John Farrier Faster build with Cmake](https://johnfarrier.com/cmake-optimization-boost-build-speed-with-these-expert-tips/)
 
